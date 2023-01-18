@@ -5,7 +5,7 @@ const newsContainer = document.querySelector('#news-container');
 async function getData() {
     try {
         const response = await fetch(
-            'https://api-berita-indonesia.vercel.app/tribun/kesehatan/'
+            'https://api-berita-indonesia.vercel.app/suara/health/'
         );
         DATA = await response.json();
 
