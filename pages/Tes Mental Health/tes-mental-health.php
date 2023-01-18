@@ -77,7 +77,7 @@ $row_test = mysqli_fetch_assoc($result_test);
                 <div class="col-10">
                     <div class="card">
                         <div class="col-12 mb-3">
-                            
+
                         </div>
                         <div class="col-12 mb-3">
                             <div class="ques" id="test"></div>
@@ -88,12 +88,7 @@ $row_test = mysqli_fetch_assoc($result_test);
                                 <li class="option" name="options" id="skor3"><span id="skorr3"></span></li>
                             </ul>
                         </div>
-<<<<<<< Updated upstream
-                        
-                        <div class="col-12 mb-3">
-=======
                         <!-- <div class="col-12 mb-3">
->>>>>>> Stashed changes
                             <input type="radio" name="options" id="skor0"><span id="skorr0"></span>
                         </div>
                         <div class="col-12 mb-3">

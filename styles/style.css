@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;700&family=Poppins&display=swap');
+:root{
+    --primary: #0369a1;
+    --body: #f1f5f9;
+    --section: #cbd5e1;
+}
+
 * {
     box-sizing: border-box !important;
     color: #000;
     font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: var(--body);
 }
 
 .navbar {
@@ -235,7 +245,7 @@
 /* Footer */
 
 .footer {
-    background-color: #1971C2;
+    background-color: var(--primary);
     padding-top: 20px;
 }
 
@@ -310,6 +320,7 @@
     padding: 30px 30px 20px 30px;
     border-radius: 10px;
     border: none;
+    background-color: var(--section);
     box-shadow: 5px 4px 50px rgba(0, 0, 0, 0.06);
     transition: 0.3s all;
 }
@@ -419,6 +430,29 @@ input[type="radio"] {
 #skorr0, #skorr1, #skorr2, #skorr3 {
     font-size: 16px;
     color: #666666;
+}
+
+.option_group{
+    list-style-type: none;
+    margin-bottom: 30px 0;
+}
+
+.option{
+    display: block;
+    width: 300px;
+    background-color: #152C5B;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    transition: 0.4s all;
+}
+
+.option:hover{
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-color: #152C5B;
+    background-color: #fff;
 }
 
 @media screen and (max-width: 1034px){
