@@ -81,9 +81,19 @@ $row_test = mysqli_fetch_assoc($result_test);
                         </div>
                         <div class="col-12 mb-3">
                             <div class="ques" id="test"></div>
+                            <ul class="option_group">
+                                <li class="option" name="options" id="skor0"><span id="skorr0"></span></li>
+                                <li class="option" name="options" id="skor1"><span id="skorr1"></span></li>
+                                <li class="option" name="options" id="skor2"><span id="skorr2"></span></li>
+                                <li class="option" name="options" id="skor3"><span id="skorr3"></span></li>
+                            </ul>
                         </div>
+<<<<<<< Updated upstream
                         
                         <div class="col-12 mb-3">
+=======
+                        <!-- <div class="col-12 mb-3">
+>>>>>>> Stashed changes
                             <input type="radio" name="options" id="skor0"><span id="skorr0"></span>
                         </div>
                         <div class="col-12 mb-3">
@@ -94,7 +104,7 @@ $row_test = mysqli_fetch_assoc($result_test);
                         </div>
                         <div class="col-12 mb-3">
                             <input type="radio" name="options" id="skor3"><span id="skorr3"></span>
-                        </div>
+                        </div> -->
                         <div class="col-3"> <button type="submit" class="btn btn-send" onclick="countAnswer()">Next</button>
                         </div>
                     </div>

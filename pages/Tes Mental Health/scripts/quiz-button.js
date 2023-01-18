@@ -1,0 +1,1 @@
+let question_count = 0;
