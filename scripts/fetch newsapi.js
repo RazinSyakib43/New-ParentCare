@@ -33,11 +33,9 @@ form.addEventListener('submit', (event) => {
     const inputSearch = event.srcElement[0];
 
     // console.log(event);
-    for (const article of DATA.data.posts) {
-        filteredNews = DATA.data.posts.filter((item) => {
-            return item.title === inputSearch.value;
-        });
-    }
+    filteredNews = DATA.data.posts.filter((item) => {
+        return item.title.toLowerCase().includes(inputSearch.value.toLowerCase());
+    });
     newsContainer.innerHTML = '';
     for (const article of filteredNews) {
         newsContainer.innerHTML += templateNews(article);
