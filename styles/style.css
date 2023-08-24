@@ -432,12 +432,12 @@ input[type="radio"] {
     margin-right: 10px;
 }
   
-/* #skorr0, #skorr1, #skorr2, #skorr3 {
+.sub-title-kategori {
     font-size: 16px;
     color: var(--textWhite);
 }
 
-#skorr0:hover, #skorr1:hover, #skorr2:hover, #skorr3:hover {
+/* #skorr0:hover, #skorr1:hover, #skorr2:hover, #skorr3:hover {
     font-size: 16px;
     color: var(--primary);
 } */
